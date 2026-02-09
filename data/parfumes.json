@@ -1,0 +1,122 @@
+[
+  {
+    "id": "kahf-humidify",
+    "name": "Kahf Humidify EDT",
+    "brand": "Kahf",
+    "price": 250000,
+    "aroma": ["fresh", "citrus"],
+    "intensity": "light",
+    "occasion": ["daily", "office"],
+    "gender": "men",
+    "longevity": "4-6 jam",
+    "affiliate": "https://example.com/affiliate/kahf-humidify"
+  },
+  {
+    "id": "hmns-orgsm",
+    "name": "HMNS Orgsm EDP",
+    "brand": "HMNS",
+    "price": 345000,
+    "aroma": ["woody", "spicy"],
+    "intensity": "strong",
+    "occasion": ["night", "date"],
+    "gender": "men",
+    "longevity": "6-8 jam",
+    "affiliate": "https://example.com/affiliate/hmns-orgsm"
+  },
+  {
+    "id": "scarlett-brightening",
+    "name": "Scarlett Brightening EDP",
+    "brand": "Scarlett",
+    "price": 180000,
+    "aroma": ["floral", "sweet"],
+    "intensity": "medium",
+    "occasion": ["daily", "date"],
+    "gender": "women",
+    "longevity": "4-6 jam",
+    "affiliate": "https://example.com/affiliate/scarlett-brightening"
+  },
+  {
+    "id": "evangeline-red",
+    "name": "Evangeline Red",
+    "brand": "Evangeline",
+    "price": 110000,
+    "aroma": ["sweet", "fruity"],
+    "intensity": "light",
+    "occasion": ["daily", "school"],
+    "gender": "women",
+    "longevity": "3-5 jam",
+    "affiliate": "https://example.com/affiliate/evangeline-red"
+  },
+  {
+    "id": "mykonos-casa",
+    "name": "Mykonos Casa EDP",
+    "brand": "Mykonos",
+    "price": 450000,
+    "aroma": ["fresh", "aquatic"],
+    "intensity": "medium",
+    "occasion": ["office", "daily"],
+    "gender": "unisex",
+    "longevity": "6-8 jam",
+    "affiliate": "https://example.com/affiliate/mykonos-casa"
+  },
+  {
+    "id": "saint-julia-sunrise",
+    "name": "Saint & Julia Sunrise",
+    "brand": "Saint & Julia",
+    "price": 320000,
+    "aroma": ["citrus", "fresh"],
+    "intensity": "light",
+    "occasion": ["daily", "office"],
+    "gender": "unisex",
+    "longevity": "4-6 jam",
+    "affiliate": "https://example.com/affiliate/saint-julia-sunrise"
+  },
+  {
+    "id": "alchemist-midnight",
+    "name": "Alchemist Midnight Noir",
+    "brand": "Alchemist",
+    "price": 495000,
+    "aroma": ["woody", "smoky"],
+    "intensity": "strong",
+    "occasion": ["night", "date"],
+    "gender": "unisex",
+    "longevity": "8-10 jam",
+    "affiliate": "https://example.com/affiliate/alchemist-midnight"
+  },
+  {
+    "id": "saff-co-vanilla",
+    "name": "SAFF & Co. Vanilla Bloom",
+    "brand": "SAFF & Co.",
+    "price": 400000,
+    "aroma": ["gourmand", "sweet"],
+    "intensity": "medium",
+    "occasion": ["date", "night"],
+    "gender": "women",
+    "longevity": "6-8 jam",
+    "affiliate": "https://example.com/affiliate/saff-vanilla"
+  },
+  {
+    "id": "nonik-spice",
+    "name": "Nonik Ambrosia Spice",
+    "brand": "Nonik",
+    "price": 230000,
+    "aroma": ["spicy", "woody"],
+    "intensity": "medium",
+    "occasion": ["office", "daily"],
+    "gender": "men",
+    "longevity": "5-7 jam",
+    "affiliate": "https://example.com/affiliate/nonik-spice"
+  },
+  {
+    "id": "miniso-garden",
+    "name": "Miniso Garden Bloom",
+    "brand": "Miniso",
+    "price": 120000,
+    "aroma": ["floral", "fresh"],
+    "intensity": "light",
+    "occasion": ["daily", "school"],
+    "gender": "women",
+    "longevity": "3-5 jam",
+    "affiliate": "https://example.com/affiliate/miniso-garden"
+  }
+]

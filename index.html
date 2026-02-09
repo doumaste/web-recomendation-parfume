@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rekomendasi Parfum Lokal Indonesia</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="hero">
+      <div class="hero-content">
+        <p class="tag">rekomendasi parfum untukmu</p>
+        <h1>Temukan parfum lokal yang paling cocok untukmu.</h1>
+        <p>
+          Masukkan preferensi kamu, lalu sistem akan memberikan 3 rekomendasi parfum lokal
+          Indonesia beserta link affiliate untuk pembelian.
+        </p>
+      </div>
+    </header>
+
+    <main class="container">
+      <section class="card form-card">
+        <h2>Form Preferensi</h2>
+        <form id="preference-form">
+          <div class="form-grid">
+            <label>
+              Budget (Rp)
+              <select name="budget" required>
+                <option value="">Pilih budget</option>
+                <option value="100000-200000">100 - 200 ribu</option>
+                <option value="200001-300000">200 - 300 ribu</option>
+                <option value="300001-400000">300 - 400 ribu</option>
+                <option value="400001-500000">400 - 500 ribu</option>
+              </select>
+            </label>
+            <label>
+              Aroma utama
+              <select name="aroma" required>
+                <option value="">Pilih aroma</option>
+                <option value="fresh">Fresh</option>
+                <option value="citrus">Citrus</option>
+                <option value="floral">Floral</option>
+                <option value="sweet">Sweet</option>
+                <option value="woody">Woody</option>
+                <option value="spicy">Spicy</option>
+                <option value="aquatic">Aquatic</option>
+                <option value="gourmand">Gourmand</option>
+              </select>
+            </label>
+            <label>
+              Intensitas
+              <select name="intensity" required>
+                <option value="">Pilih intensitas</option>
+                <option value="light">Ringan</option>
+                <option value="medium">Sedang</option>
+                <option value="strong">Tahan lama</option>
+              </select>
+            </label>
+            <label>
+              Occasion
+              <select name="occasion" required>
+                <option value="">Pilih occasion</option>
+                <option value="daily">Harian</option>
+                <option value="office">Kantor</option>
+                <option value="date">Kencan</option>
+                <option value="night">Malam</option>
+                <option value="school">Sekolah</option>
+              </select>
+            </label>
+            <label>
+              Gender
+              <select name="gender" required>
+                <option value="">Pilih gender</option>
+                <option value="women">Wanita</option>
+                <option value="men">Pria</option>
+                <option value="unisex">Unisex</option>
+              </select>
+            </label>
+          </div>
+          <button type="submit" class="primary">Dapatkan rekomendasi</button>
+        </form>
+      </section>
+
+      <section class="card result-card">
+        <div class="result-header">
+          <h2>3 Rekomendasi Terbaik</h2>
+          <p id="result-note">Isi form untuk melihat rekomendasi.</p>
+        </div>
+        <div id="result-list" class="result-list"></div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>Data parfum lokal Indonesia dengan rentang 100-500 ribu.</p>
+    </footer>
+
+    <script src="data/parfumes.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
