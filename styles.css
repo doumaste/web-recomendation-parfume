@@ -1,0 +1,166 @@
+:root {
+  color-scheme: light;
+  --background: #f5f1ee;
+  --card: #ffffff;
+  --primary: #a83f39;
+  --secondary: #4f2a2a;
+  --muted: #7d6f6f;
+  --border: #e2d7d7;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", "Segoe UI", sans-serif;
+}
+
+body {
+  background: var(--background);
+  color: var(--secondary);
+  min-height: 100vh;
+}
+
+.hero {
+  background: linear-gradient(135deg, #f0d7d5, #f9efe8);
+  padding: 56px 16px;
+}
+
+.hero-content {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.tag {
+  color: var(--primary);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 12px;
+}
+
+.hero h1 {
+  font-size: 2.4rem;
+  margin-bottom: 16px;
+}
+
+.hero p {
+  max-width: 640px;
+  line-height: 1.6;
+  color: var(--muted);
+}
+
+.container {
+  max-width: 1100px;
+  margin: -40px auto 48px;
+  display: grid;
+  gap: 24px;
+  padding: 0 16px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.card {
+  background: var(--card);
+  border-radius: 16px;
+  padding: 24px;
+  border: 1px solid var(--border);
+  box-shadow: 0 10px 30px rgba(79, 42, 42, 0.08);
+}
+
+.form-card h2,
+.result-card h2 {
+  margin-bottom: 16px;
+}
+
+.form-grid {
+  display: grid;
+  gap: 16px;
+  margin-bottom: 20px;
+}
+
+label {
+  display: grid;
+  gap: 8px;
+  font-weight: 600;
+  color: var(--secondary);
+}
+
+select {
+  padding: 12px 14px;
+  border-radius: 12px;
+  border: 1px solid var(--border);
+  font-size: 0.95rem;
+}
+
+.primary {
+  width: 100%;
+  padding: 12px 16px;
+  border-radius: 12px;
+  border: none;
+  background: var(--primary);
+  color: white;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.primary:hover {
+  background: #8f3430;
+}
+
+.result-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+#result-note {
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.result-list {
+  display: grid;
+  gap: 16px;
+  margin-top: 20px;
+}
+
+.result-item {
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 16px;
+  display: grid;
+  gap: 8px;
+}
+
+.result-item h3 {
+  font-size: 1.1rem;
+}
+
+.badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.badge {
+  background: #f3e5e4;
+  color: var(--primary);
+  border-radius: 999px;
+  padding: 4px 10px;
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+
+.result-item a {
+  color: var(--primary);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.footer {
+  text-align: center;
+  padding: 24px 16px 48px;
+  color: var(--muted);
+}
