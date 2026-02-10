@@ -9,7 +9,7 @@
   <body>
     <header class="hero">
       <div class="hero-content">
-        <p class="tag">rekomendasi parfum untukmu</p>
+        <p class="tag">AI Recommender</p>
         <h1>Temukan parfum lokal yang paling cocok untukmu.</h1>
         <p>
           Masukkan preferensi kamu, lalu sistem akan memberikan 3 rekomendasi parfum lokal
@@ -48,12 +48,35 @@
               </select>
             </label>
             <label>
+              Aroma kedua (opsional)
+              <select name="aromaSecondary">
+                <option value="">Tidak ada</option>
+                <option value="fresh">Fresh</option>
+                <option value="citrus">Citrus</option>
+                <option value="floral">Floral</option>
+                <option value="sweet">Sweet</option>
+                <option value="woody">Woody</option>
+                <option value="spicy">Spicy</option>
+                <option value="aquatic">Aquatic</option>
+                <option value="gourmand">Gourmand</option>
+              </select>
+            </label>
+            <label>
               Intensitas
               <select name="intensity" required>
                 <option value="">Pilih intensitas</option>
                 <option value="light">Ringan</option>
                 <option value="medium">Sedang</option>
                 <option value="strong">Tahan lama</option>
+              </select>
+            </label>
+            <label>
+              Cuaca
+              <select name="weather" required>
+                <option value="">Pilih cuaca</option>
+                <option value="hot">Panas</option>
+                <option value="cool">Sejuk</option>
+                <option value="rainy">Hujan</option>
               </select>
             </label>
             <label>

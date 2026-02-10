@@ -7,9 +7,11 @@ window.PERFUMES = [
     aroma: ["fresh", "citrus"],
     intensity: "light",
     occasion: ["daily", "office"],
+    weather: ["hot"],
     gender: "men",
     longevity: "4-6 jam",
-    affiliate: "https://example.com/affiliate/kahf-humidify"
+    affiliate: "https://example.com/affiliate/kahf-humidify",
+    image: "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?auto=format&fit=crop&w=400&q=80"
   },
   {
     id: "hmns-orgsm",
@@ -19,9 +21,11 @@ window.PERFUMES = [
     aroma: ["woody", "spicy"],
     intensity: "strong",
     occasion: ["night", "date"],
+    weather: ["cool", "rainy"],
     gender: "men",
     longevity: "6-8 jam",
-    affiliate: "https://example.com/affiliate/hmns-orgsm"
+    affiliate: "https://example.com/affiliate/hmns-orgsm",
+    image: "https://images.unsplash.com/photo-1501004318641-b39e6451bec6?auto=format&fit=crop&w=400&q=80"
   },
   {
     id: "scarlett-brightening",
@@ -31,9 +35,11 @@ window.PERFUMES = [
     aroma: ["floral", "sweet"],
     intensity: "medium",
     occasion: ["daily", "date"],
+    weather: ["hot"],
     gender: "women",
     longevity: "4-6 jam",
-    affiliate: "https://example.com/affiliate/scarlett-brightening"
+    affiliate: "https://example.com/affiliate/scarlett-brightening",
+    image: "https://images.unsplash.com/photo-1526045478516-99145907023c?auto=format&fit=crop&w=400&q=80"
   },
   {
     id: "evangeline-red",
@@ -43,9 +49,11 @@ window.PERFUMES = [
     aroma: ["sweet", "fruity"],
     intensity: "light",
     occasion: ["daily", "school"],
+    weather: ["hot"],
     gender: "women",
     longevity: "3-5 jam",
-    affiliate: "https://example.com/affiliate/evangeline-red"
+    affiliate: "https://example.com/affiliate/evangeline-red",
+    image: "https://images.unsplash.com/photo-1515377905703-c4788e51af15?auto=format&fit=crop&w=400&q=80"
   },
   {
     id: "mykonos-casa",
@@ -54,10 +62,12 @@ window.PERFUMES = [
     price: 450000,
     aroma: ["fresh", "aquatic"],
     intensity: "medium",
-    occasion: ["office", "daily"],
+    occasion: ["all"],
+    weather: ["all"],
     gender: "unisex",
     longevity: "6-8 jam",
-    affiliate: "https://example.com/affiliate/mykonos-casa"
+    affiliate: "https://example.com/affiliate/mykonos-casa",
+    image: "https://images.unsplash.com/photo-1523297736436-356615162d78?auto=format&fit=crop&w=400&q=80"
   },
   {
     id: "saint-julia-sunrise",
@@ -67,9 +77,11 @@ window.PERFUMES = [
     aroma: ["citrus", "fresh"],
     intensity: "light",
     occasion: ["daily", "office"],
+    weather: ["hot", "cool"],
     gender: "unisex",
     longevity: "4-6 jam",
-    affiliate: "https://example.com/affiliate/saint-julia-sunrise"
+    affiliate: "https://example.com/affiliate/saint-julia-sunrise",
+    image: "https://images.unsplash.com/photo-1503602642458-232111445657?auto=format&fit=crop&w=400&q=80"
   },
   {
     id: "alchemist-midnight",
@@ -79,9 +91,11 @@ window.PERFUMES = [
     aroma: ["woody", "smoky"],
     intensity: "strong",
     occasion: ["night", "date"],
+    weather: ["cool", "rainy"],
     gender: "unisex",
     longevity: "8-10 jam",
-    affiliate: "https://example.com/affiliate/alchemist-midnight"
+    affiliate: "https://example.com/affiliate/alchemist-midnight",
+    image: "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?auto=format&fit=crop&w=400&q=80"
   },
   {
     id: "saff-co-vanilla",
@@ -91,9 +105,11 @@ window.PERFUMES = [
     aroma: ["gourmand", "sweet"],
     intensity: "medium",
     occasion: ["date", "night"],
+    weather: ["cool"],
     gender: "women",
     longevity: "6-8 jam",
-    affiliate: "https://example.com/affiliate/saff-vanilla"
+    affiliate: "https://example.com/affiliate/saff-vanilla",
+    image: "https://images.unsplash.com/photo-1503160865267-af4660a9006e?auto=format&fit=crop&w=400&q=80"
   },
   {
     id: "nonik-spice",
@@ -103,9 +119,11 @@ window.PERFUMES = [
     aroma: ["spicy", "woody"],
     intensity: "medium",
     occasion: ["office", "daily"],
+    weather: ["hot"],
     gender: "men",
     longevity: "5-7 jam",
-    affiliate: "https://example.com/affiliate/nonik-spice"
+    affiliate: "https://example.com/affiliate/nonik-spice",
+    image: "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=400&q=80"
   },
   {
     id: "miniso-garden",
@@ -115,8 +133,10 @@ window.PERFUMES = [
     aroma: ["floral", "fresh"],
     intensity: "light",
     occasion: ["daily", "school"],
+    weather: ["hot"],
     gender: "women",
     longevity: "3-5 jam",
-    affiliate: "https://example.com/affiliate/miniso-garden"
+    affiliate: "https://example.com/affiliate/miniso-garden",
+    image: "https://images.unsplash.com/photo-1503341455253-b2e723bb3dbb?auto=format&fit=crop&w=400&q=80"
   }
 ];
